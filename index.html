@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="javasctipt.js" defer></script>
+    <script src="javascript.js" defer></script>
     <title>Sign-up</title>
 </head>
 
@@ -23,7 +23,7 @@
         <h1>This is not a real online service! You know you need something like this in your life to help you realize
             your deepest dreams.<br>Sign up <em>now</em> and get started.<br><br>You know you want to.</h1>
 
-        <form method="post" action="#" id="sign-up-form">
+        <form method="post" action="https://httpbin.org/post" id="sign-up-form">
             <legend>Let's do this!</legend>
 
             <div class="row">
@@ -57,7 +57,7 @@
                 <div class="input">
                     <label for="password">Password</label>
                     <input type="password" name="password" id="password" >
-                    <span></span>
+                    <span class="pass-error"></span>
                 </div>
 
                 <div class="input">

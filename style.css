@@ -133,7 +133,7 @@ input:invalid{
     border: 2px solid rgb(253, 56, 56);
 }
 
-input:invalid + span::after{
+input:invalid + span{
     color: red;
 }
 
